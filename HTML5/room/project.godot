@@ -1,6 +1,4 @@
 [application]
 config/name="room"
 run/main_scene="res://scenes/main.tscn"
-config/features=PackedStringArray("4.3", "Compatibility")
-[rendering]
-renderer/rendering_method="gl_compatibility"
+config/features=PackedStringArray("4.3", "Forward Plus")
