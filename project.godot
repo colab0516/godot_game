@@ -4,16 +4,15 @@ run/main_scene="res://scenes/Splash.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 
 [application/boot_splash]
-# --- 修改這裡來指定你的啟動圖 ---
+# 這裡要開啟，才能顯示你指定的圖
 show_image=true
-# 指向你的圖片路徑 (建議用 .png)
-image="res://sprites/coin.png"
-# 背景顏色，可以配合你的圖片
-bg_color=Color(0, 0, 0, 1)
+# 務必確認檔案確實在這個路徑，且檔名大小寫完全一致
+image="res://sprites/fruit.png"
 fullsize=true
 use_filter=true
-# 如果你想讓這張圖停久一點點 (單位是毫秒)，可以改這個值
-minimum_display_time=500
+bg_color=Color(0, 0, 0, 1)
+# 給它一點顯示時間（毫秒），否則會一閃而過變回黑屏
+minimum_display_time=1000
 
 [display/window/stretch]
 mode="canvas_items"
@@ -22,11 +21,3 @@ aspect="expand"
 [rendering]
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
-# --- 動畫與圖片優化設定 ---
-# 針對 Web 端的圖片壓縮優化
-textures/vram_compression/import_etc2_astc=true
-# 如果有 2D 動畫，開啟這個可以減少殘影
-textures/canvas_textures/default_texture_filter=0
-
-[gui]
-common/drop_mouse_on_gui_input_disabled=true
