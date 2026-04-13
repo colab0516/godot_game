@@ -2,10 +2,10 @@ ea4bc82a6ad023ab7ee23ee620429895
 ::res://::1776068109
 export_presets.cfg::TextFile::-1::1776068135::0::1::::<><>::
 ::res://exports/::1776065783
-::res://HTML5/::1776068111
-index.apple-touch-icon.png::CompressedTexture2D::3954854223745258881::1776068111::1776068099::1::::<><>::
-index.icon.png::CompressedTexture2D::7657464907127322693::1776068110::1776068099::1::::<><>::
-index.png::CompressedTexture2D::9144195335544842546::1776068110::1776068099::1::::<><>::
+::res://HTML5/::1776068144
+index.apple-touch-icon.png::CompressedTexture2D::3954854223745258881::1776068144::1776068099::1::::<><>::
+index.icon.png::CompressedTexture2D::7657464907127322693::1776068144::1776068099::1::::<><>::
+index.png::CompressedTexture2D::9144195335544842546::1776068143::1776068099::1::::<><>::
 ::res://scenes/::1776065072
 main.tscn::PackedScene::471933::1776068135::0::1::::<><>::res://sprites/world_tileset.png<>res://scripts/player.gd<>res://sprites/knight.png
 ::res://scripts/::1776067638
