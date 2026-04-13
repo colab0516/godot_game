@@ -1,7 +1,7 @@
-fc8a56933c4b1c8d796fdb8f7a9f9475
+ea4bc82a6ad023ab7ee23ee620429895
 ::res://::1776075875
-export_presets.cfg::TextFile::-1::1776084491::0::1::::<><>::
-::res://docs/::1776084498
+export_presets.cfg::TextFile::-1::1776084612::0::1::::<><>::
+::res://docs/::1776084576
 index.apple-touch-icon.png::CompressedTexture2D::5200854698662842011::1776084498::1776084576::1::::<><>::
 index.icon.png::CompressedTexture2D::7115786749294804469::1776084498::1776084576::1::::<><>::
 index.png::CompressedTexture2D::4297733303773381523::1776084498::1776084576::1::::<><>::
@@ -11,9 +11,9 @@ index.apple-touch-icon.png::CompressedTexture2D::4828706368258205007::1776073295
 index.icon.png::CompressedTexture2D::6420080699509779896::1776073295::1776071112::1::::<><>::
 index.png::CompressedTexture2D::8638884810341445518::1776073295::1776071112::1::::<><>::
 ::res://scenes/::1776065072
-main.tscn::PackedScene::471933::1776084491::0::1::::<><>::res://scripts/player.gd
+main.tscn::PackedScene::471933::1776084612::0::1::::<><>::
 ::res://scripts/::1776067638
-player.gd::GDScript::-1::1776084491::0::1::::<>CharacterBody2D<>::
+player.gd::GDScript::-1::1776084577::0::1::::<>CharacterBody2D<>::
 ::res://sprites/::1776065071
 coin.png::CompressedTexture2D::792335435976755390::1774772442::1776065071::1::::<><>::
 fruit.png::CompressedTexture2D::5749885734906835282::1774772442::1776065071::1::::<><>::
