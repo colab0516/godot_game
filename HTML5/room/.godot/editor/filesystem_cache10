@@ -1,0 +1,16 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1776086946
+export_presets.cfg::TextFile::-1::1776086946::0::1::::<><><>0<>0<><>::
+::res://HTML5/::1776085285
+::res://scenes/::1776086946
+main.tscn::PackedScene::471933::1776086946::0::1::::<><><>0<>0<><>::res://sprites/world_tileset.png<>res://scripts/player.gd<>res://sprites/knight.png
+::res://scripts/::1776086946
+player.gd::GDScript::6330621280769567228::1776086946::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://sprites/::1776086945
+coin.png::CompressedTexture2D::6021236392611618788::1774772442::1776086945::1::::<><><>0<>0<>52be9b3f697e2e954003f325801a1608<>res://.godot/imported/coin.png-54d5e156d7891d9603a51f76f85b4fd9.ctex::
+fruit.png::CompressedTexture2D::8664226995133191470::1774772442::1776086945::1::::<><><>0<>0<>e86fbde80c455e87bfd94eb806e12205<>res://.godot/imported/fruit.png-33b325b6fecf0ae3ad310b50fcb64d04.ctex::
+knight.png::CompressedTexture2D::3415585817054044944::1774772442::1776086945::1::::<><><>0<>0<>7f211f71adce7b01b9b762e818e134b1<>res://.godot/imported/knight.png-c78c026709c2736971ffc0a39338542e.ctex::
+platforms.png::CompressedTexture2D::6590747414521847601::1774772442::1776086945::1::::<><><>0<>0<>669618bf5f85e9528ba7248ec8ab5d5e<>res://.godot/imported/platforms.png-fdcd4bebb7ecd5fd1592abe643f480f5.ctex::
+slime_green.png::CompressedTexture2D::9217296274223862258::1774772442::1776086945::1::::<><><>0<>0<>ea8a26e0dd459eb1a13ec9ae70d4315e<>res://.godot/imported/slime_green.png-d23936e8ad50c1f02045d1fdaace456b.ctex::
+slime_purple.png::CompressedTexture2D::4084309339575435860::1774772442::1776086945::1::::<><><>0<>0<>daa5f5b114568b9f7ddc78d5082ac6ca<>res://.godot/imported/slime_purple.png-3d9e552c3e3aeb2a7f3441f746b4c24b.ctex::
+world_tileset.png::CompressedTexture2D::3235382918597368611::1774772442::1776086945::1::::<><><>0<>0<>75d90fdf377f5b28f0c0fcf4a3b8b9f6<>res://.godot/imported/world_tileset.png-8b3dc0eb27b141bfe097cdfc0d6186a3.ctex::
