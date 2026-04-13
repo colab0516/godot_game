@@ -7,7 +7,7 @@ config/features=PackedStringArray("4.3", "Forward Plus")
 # --- 修改這裡來指定你的啟動圖 ---
 show_image=true
 # 指向你的圖片路徑 (建議用 .png)
-image="res://sprites/cat.jpeg"
+image="res://sprites/coin.png"
 # 背景顏色，可以配合你的圖片
 bg_color=Color(0, 0, 0, 1)
 fullsize=true
