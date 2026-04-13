@@ -1,38 +1,10 @@
 [gd_scene format=3 uid="uid://main"]
 
-[ext_resource type="Texture2D" path="res://sprites/world_tileset.png" id="1_tex"]
-[ext_resource type="Script" path="res://scripts/player.gd" id="2_scr"]
-[ext_resource type="Texture2D" path="res://sprites/knight.png" id="3_tex"]
 
-[sub_resource type="TileSetAtlasSource" id="1"]
-texture = ExtResource("1_tex")
-texture_region_size = Vector2i(16, 16)
-0:0/0 = 0
-
-[sub_resource type="TileSet" id="2"]
-tile_size = Vector2i(16, 16)
-sources/1 = SubResource("1")
-
-[sub_resource type="CircleShape2D" id="3"]
-radius = 15
 
 
 [node name="Main" type="Node2D"]
 
-[node name="MyTileMap" type="TileMap" parent="."]
-tile_set = SubResource("2")
-layer_0/tile_data = PackedInt32Array(65540, 589824, 0, 65541, 655360, 0, 65542, 720896, 0)
-
 [node name="Player" type="CharacterBody2D" parent="."]
-script = ExtResource("2_scr")
 position = Vector2(576, 324)
-
-[node name="KnightAnim" type="Sprite2D" parent="Player"]
-texture = ExtResource("3_tex")
-hframes = 4
-vframes = 1
-scale = Vector2(4, 4)
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
-shape = SubResource("3")
 
