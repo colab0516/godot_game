@@ -1,21 +1,29 @@
 [application]
 config/name="godot_game"
-run/main_scene="res://scenes/main.tscn"
+run/main_scene="res://scenes/Splash.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 
 [application/boot_splash]
-# 1. 引擎層級關閉
+# 徹底關閉 Logo 圖片
 show_image=false
+# 背景設為全黑 (0,0,0,1)
 bg_color=Color(0, 0, 0, 1)
 fullsize=false
 use_filter=false
-# 強制停留時間設為 0
+# 關鍵：不允許任何多餘的等待時間
 minimum_display_time=0
 
 [display/window/stretch]
+# 讓遊戲自動適應 Streamlit 的 iframe 大小
 mode="canvas_items"
 aspect="expand"
 
 [rendering]
+# Web 匯出必須使用 gl_compatibility
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true
+
+[gui]
+# 隱藏預設的滑鼠，讓畫面更乾淨
+common/drop_mouse_on_gui_input_disabled=true
