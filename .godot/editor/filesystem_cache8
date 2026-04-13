@@ -1,10 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1776065783
+::res://::1776066253
+export_presets.cfg::TextFile::-1::1776066253::0::1::::<><>::
 ::res://exports/::1776065783
 ::res://scenes/::1776065072
-main.tscn::PackedScene::471933::1776065072::0::1::::<><>::res://scripts/player.gd<>res://sprites/knight.png
-::res://scripts/::1776065787
-player.gd::GDScript::-1::1776065788::0::1::::<>CharacterBody2D<>::
+main.tscn::PackedScene::471933::1776066253::0::1::::<><>::res://scripts/player.gd<>res://sprites/knight.png
+::res://scripts/::1776065951
+player.gd::GDScript::-1::1776065952::0::1::::<>CharacterBody2D<>::
 ::res://sprites/::1776065071
 coin.png::CompressedTexture2D::792335435976755390::1774772442::1776065071::1::::<><>::
 fruit.png::CompressedTexture2D::5749885734906835282::1774772442::1776065071::1::::<><>::
