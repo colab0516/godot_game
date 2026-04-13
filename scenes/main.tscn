@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://main"]
+
+[ext_resource type="Script" path="res://scripts/player.gd" id="1_scr"]
+[ext_resource type="Texture2D" path="res://sprites/knight.png" id="2_tex"]
+
+[sub_resource type="AtlasTexture" id="1"]
+atlas = ExtResource("2_tex")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="2"]
+atlas = ExtResource("2_tex")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="3"]
+atlas = ExtResource("2_tex")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="4"]
+atlas = ExtResource("2_tex")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="5"]
+animations = [{ "frames": [SubResource("1"), SubResource("2"), SubResource("3"), SubResource("4")], "loop": true, "name": "default", "speed": 10.0 }]
+
+[sub_resource type="CircleShape2D" id="6"]
+radius = 15
+
+
+[node name="World" type="Node2D"]
+
+[node name="Player" type="CharacterBody2D" parent="."]
+script = ExtResource("1_scr")
+position = Vector2(576, 324)
+
+[node name="KnightAnim" type="AnimatedSprite2D" parent="Player"]
+sprite_frames = SubResource("5")
+autoplay = "default"
+scale = Vector2(4, 4)
+
+[node name="Collision" type="CollisionShape2D" parent="Player"]
+shape = SubResource("6")
+
