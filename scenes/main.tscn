@@ -7,13 +7,32 @@
 [sub_resource type="TileSetAtlasSource" id="1"]
 texture = ExtResource("1_tex")
 texture_region_size = Vector2i(16, 16)
-0:0/0 = 0
 
 [sub_resource type="TileSet" id="2"]
 tile_size = Vector2i(16, 16)
-sources/1 = SubResource("1")
+physics_layer_0/collision_layer = 1
+sources/0 = SubResource("1")
 
-[sub_resource type="CircleShape2D" id="3"]
+[sub_resource type="AtlasTexture" id="3"]
+atlas = ExtResource("3_tex")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="4"]
+atlas = ExtResource("3_tex")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="5"]
+atlas = ExtResource("3_tex")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="6"]
+atlas = ExtResource("3_tex")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="7"]
+animations = [{ "frames": [SubResource("3"), SubResource("4"), SubResource("5"), SubResource("6")], "loop": true, "name": "default", "speed": 10.0 }]
+
+[sub_resource type="CircleShape2D" id="8"]
 radius = 15
 
 
@@ -21,18 +40,17 @@ radius = 15
 
 [node name="MyTileMap" type="TileMap" parent="."]
 tile_set = SubResource("2")
-layer_0/tile_data = PackedInt32Array(65540, 589824, 0, 65541, 655360, 0, 65542, 720896, 0)
+format = 2
 
 [node name="Player" type="CharacterBody2D" parent="."]
 script = ExtResource("2_scr")
 position = Vector2(576, 324)
 
-[node name="KnightAnim" type="Sprite2D" parent="Player"]
-texture = ExtResource("3_tex")
-hframes = 4
-vframes = 1
+[node name="KnightAnim" type="AnimatedSprite2D" parent="Player"]
+sprite_frames = SubResource("7")
+autoplay = "default"
 scale = Vector2(4, 4)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
-shape = SubResource("3")
+shape = SubResource("8")
 
