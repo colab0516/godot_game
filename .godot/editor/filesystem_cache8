@@ -1,6 +1,6 @@
 fc8a56933c4b1c8d796fdb8f7a9f9475
 ::res://::1776138101
-export_presets.cfg::TextFile::-1::1776139559::0::1::::<><>::
+export_presets.cfg::TextFile::-1::1776139698::0::1::::<><>::
 ::res://docs/::1776137208
 index.apple-touch-icon.png::CompressedTexture2D::6762038789858305380::1776137191::1776137208::1::::<><>::
 index.icon.png::CompressedTexture2D::1837441726967971843::1776137191::1776137208::1::::<><>::
@@ -12,11 +12,11 @@ index.icon.png::CompressedTexture2D::6420080699509779896::1776087691::1776087704
 index.png::CompressedTexture2D::8638884810341445518::1776087691::1776087704::1::::<><>::
 ::res://ios_build/::1776138101
 ::res://scenes/::1776094213
-main.tscn::PackedScene::471933::1776139559::0::1::::<><>::res://sprites/world_tileset.png<>res://scripts/player.gd<>res://sprites/knight.png
-Splash.tscn::PackedScene::838315635::1776139559::0::1::::<><>::res://scripts/splash.gd
+main.tscn::PackedScene::471933::1776139698::0::1::::<><>::res://sprites/world_tileset.png<>res://scripts/player.gd<>res://sprites/knight.png
+Splash.tscn::PackedScene::838315635::1776139698::0::1::::<><>::res://scripts/splash.gd
 ::res://scripts/::1776094213
-player.gd::GDScript::-1::1776139559::0::1::::<>CharacterBody2D<>::
-splash.gd::GDScript::-1::1776139559::0::1::::<>Node2D<>::
+player.gd::GDScript::-1::1776139698::0::1::::<>CharacterBody2D<>::
+splash.gd::GDScript::-1::1776139698::0::1::::<>Node2D<>::
 ::res://sprites/::1776095209
 cat.jpeg::CompressedTexture2D::4681142572698945611::1776094922::1776095209::1::::<><>::
 coin.png::CompressedTexture2D::792335435976755390::1774772442::1776065071::1::::<><>::
