@@ -79,7 +79,17 @@ body {
 		<link id="-gd-engine-icon" rel="icon" type="image/png" href="index.icon.png" />
 <link rel="apple-touch-icon" href="index.apple-touch-icon.png"/>
 
-	</head>
+	
+        <style>
+            #status-progress, #status-indeterminate, #status-notice { display: none !important; }
+            #status { 
+                background-image: none !important; 
+                background-color: #000000 !important; 
+                visibility: hidden !important; 
+            }
+            canvas { background-color: #000000 !important; }
+        </style>
+        </head>
 	<body>
 		<canvas id="canvas">
 			Your browser does not support the canvas tag.
