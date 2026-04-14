@@ -1,18 +1,5 @@
 [application]
 config/name="godot_game"
-run/main_scene="res://scenes/Splash.tscn"
-config/features=PackedStringArray("4.3", "Forward Plus")
-
-[application/boot_splash]
-show_image=false
-bg_color=Color(0, 0, 0, 1)
-minimum_display_time=0
-
-[display/window/stretch]
-mode="canvas_items"
-aspect="expand"
-
+run/main_scene="res://scenes/main.tscn"
 [rendering]
 renderer/rendering_method="gl_compatibility"
-renderer/rendering_method.mobile="gl_compatibility"
-textures/vram_compression/import_etc2_astc=true
