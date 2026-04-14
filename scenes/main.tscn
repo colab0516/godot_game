@@ -38,7 +38,7 @@ radius = 15
 
 [node name="Main" type="Node2D"]
 
-[node name="MyTileMap" type="TileMap" parent="."]
+[node name="Map" type="TileMap" parent="."]
 tile_set = SubResource("2")
 format = 2
 
@@ -49,8 +49,7 @@ position = Vector2(576, 324)
 [node name="KnightAnim" type="AnimatedSprite2D" parent="Player"]
 sprite_frames = SubResource("7")
 autoplay = "default"
-scale = Vector2(4, 4)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+[node name="Col" type="CollisionShape2D" parent="Player"]
 shape = SubResource("8")
 

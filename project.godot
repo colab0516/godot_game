@@ -1,29 +1,18 @@
-; Engine configuration file.
-; It's best edited using the editor UI and not directly,
-; since the parameters that go here are not all obvious.
-;
-; Format:
-;   [section] ; section goes between []
-;   param=value ; assign values to parameters
-
-config_version=5
-
 [application]
-
 config/name="godot_game"
 run/main_scene="res://scenes/Splash.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
-boot_splash/bg_color=Color(0, 0, 0, 1)
-"boot_splash/#éè£¡è¦éåï¼æè½é¡¯ç¤ºä½ æå®çåshow_image"=true
-"boot_splash/#åå¿ç¢ºèªæªæ¡ç¢ºå¯¦å¨éåè·¯å¾ï¼ä¸æªåå¤§å°å¯«å®å¨ä¸è´image"="res://sprites/fruit.png"
-"boot_splash/#çµ¦å®ä¸é»é¡¯ç¤ºæéï¼æ¯«ç§ï¼ï¼å¦åæä¸éèéè®åé»å±minimum_display_time"=1000
 
-[display]
+[application/boot_splash]
+show_image=false
+bg_color=Color(0, 0, 0, 1)
+minimum_display_time=0
 
-window/stretch/mode="canvas_items"
-window/stretch/aspect="expand"
+[display/window/stretch]
+mode="canvas_items"
+aspect="expand"
 
 [rendering]
-
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true
